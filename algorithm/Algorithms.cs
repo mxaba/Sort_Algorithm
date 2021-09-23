@@ -10,6 +10,19 @@ namespace Sort_Algorithm.algorithm
             numb2 = tempValue;
         }
 
+        // method for finding the position of the minimum element of a subarray, starting at position n
+        static int IndexOfMin(int[] array, int n){
+            
+            var results = n;
+            for(var i =n; i < array.Length; i++){
+                if(array[i] < array[results]){
+                    results = i;
+                }
+            }
+
+            return results;
+        }
+
         // BubbleSort
         public static int[] BubbleSort(int[] arrayPassed){
             var len = arrayPassed.Length;
@@ -83,7 +96,5 @@ namespace Sort_Algorithm.algorithm
         public static int[] MergeSort(int[] arrayPassed){
             return MergeSort(arrayPassed, 0, arrayPassed.Length -1);
         }
-
-        
     }
 }
