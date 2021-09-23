@@ -37,7 +37,7 @@ namespace Sort_Algorithm.algorithm
         }
         
         // InsertSorting
-        public static int[] InsertSorting(int[] arrayPassed){
+        public static int[] InsertionSorting(int[] arrayPassed){
             for(var i=1; i < arrayPassed.Length; i++){
                 var key = arrayPassed[i];
                 var j = i;
