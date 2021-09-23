@@ -1,0 +1,15 @@
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/bin/Debug/net5.0/Sort_Algorithm.deps.json
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/bin/Debug/net5.0/Sort_Algorithm.runtimeconfig.json
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/bin/Debug/net5.0/Sort_Algorithm.runtimeconfig.dev.json
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/bin/Debug/net5.0/Sort_Algorithm.dll
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/bin/Debug/net5.0/ref/Sort_Algorithm.dll
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/bin/Debug/net5.0/Sort_Algorithm.pdb
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/obj/Debug/net5.0/Sort_Algorithm.csproj.AssemblyReference.cache
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/obj/Debug/net5.0/Sort_Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/obj/Debug/net5.0/Sort_Algorithm.AssemblyInfoInputs.cache
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/obj/Debug/net5.0/Sort_Algorithm.AssemblyInfo.cs
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/obj/Debug/net5.0/Sort_Algorithm.csproj.CoreCompileInputs.cache
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/obj/Debug/net5.0/Sort_Algorithm.dll
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/obj/Debug/net5.0/ref/Sort_Algorithm.dll
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/obj/Debug/net5.0/Sort_Algorithm.pdb
+/Users/mxaba/CodeX/C# Projects/Sort_Algorithm/obj/Debug/net5.0/Sort_Algorithm.genruntimeconfig.cache
