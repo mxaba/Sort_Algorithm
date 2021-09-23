@@ -96,5 +96,18 @@ namespace Sort_Algorithm.algorithm
         public static int[] MergeSort(int[] arrayPassed){
             return MergeSort(arrayPassed, 0, arrayPassed.Length -1);
         }
+
+        public static int[] SelectionSort(int[] array, int currentI = 0){
+            if(currentI == array.Length)
+                return array;
+            
+            var iIndexOfMin = IndexOfMin(array, currentI);
+
+            if(iIndexOfMin != currentI){
+                SwapNumbers(ref array[iIndexOfMin], ref array[currentI]);
+            }
+
+            return SelectionSort(array, currentI + 1);
+        }
     }
 }
