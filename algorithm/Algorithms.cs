@@ -10,6 +10,7 @@ namespace Sort_Algorithm.algorithm
             numb2 = tempValue;
         }
 
+        // BubbleSort
         public static int[] BubbleSort(int[] arrayPassed){
             var len = arrayPassed.Length;
             for(var i=1; i<len; i++){
@@ -21,7 +22,8 @@ namespace Sort_Algorithm.algorithm
             }
             return arrayPassed;
         }
-
+        
+        // InsertSorting
         public static int[] InsertSorting(int[] arrayPassed){
             for(var i=1; i < arrayPassed.Length; i++){
                 var key = arrayPassed[i];
@@ -67,8 +69,21 @@ namespace Sort_Algorithm.algorithm
             }
         }
 
-        static int[] MergeSort(int[] ){
-
+        static int[] MergeSort(int[] array, int low, int high){ 
+            if(low < high){
+                var middle = (low + high) / 2;
+                MergeSort(array, low, middle);
+                MergeSort(array, middle + 1, high);
+                Merge(array, low, middle, high);
+            }
+            return array;
         }
+
+        // MergeSort
+        public static int[] MergeSort(int[] arrayPassed){
+            return MergeSort(arrayPassed, 0, arrayPassed.Length -1);
+        }
+
+        
     }
 }
