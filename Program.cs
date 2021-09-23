@@ -23,11 +23,15 @@ namespace Sort_Algorithm
                 var Numberpassed = Convert.ToInt32(Console.ReadLine());
 
                 if(Numberpassed == 1){
+                    Console.WriteLine();
                     Console.WriteLine("1. Bubble Sort");
                     Console.WriteLine("Sorted Array: {0}", string.Join(",", Algorithms.BubbleSort(array)));
+                    Console.WriteLine();
                 } else if(Numberpassed == 2){
+                    Console.WriteLine();
                     Console.WriteLine("2. InsertionSort");
                     Console.WriteLine("Sorted Array: {0}", string.Join(",", Algorithms.InsertionSorting(array)));
+                    Console.WriteLine();
                 }
                 
             }
