@@ -29,14 +29,24 @@ namespace Sort_Algorithm
                     Console.WriteLine();
                 } else if(Numberpassed == 2){
                     Console.WriteLine();
-                    Console.WriteLine("2. InsertionSort");
+                    Console.WriteLine("2. Insertion Sort");
                     Console.WriteLine("Sorted Array: {0}", string.Join(",", Algorithms.InsertionSorting(array)));
                     Console.WriteLine();
+                } else if(Numberpassed == 3){
+                    Console.WriteLine();
+                    Console.WriteLine("3. Merge Sort");
+                    Console.WriteLine("Sorted Array: {0}", string.Join(",", Algorithms.MergeSort(array)));
+                    Console.WriteLine();
+                } else if(Numberpassed == 4){
+                    Console.WriteLine();
+                    Console.WriteLine("4. Selection Sort");
+                    Console.WriteLine("Sorted Array: {0}", string.Join(",", Algorithms.SelectionSort(array)));
+                    Console.WriteLine();
+                } else {
+                    Console.WriteLine("Please pick the correct number, Thank you!🥱");
                 }
                 
             }
-            // Console.WriteLine("Sorted Array: {0}", string.Join(",", BubbleSort(array)));
-            // Console.ReadLine();
         }
     }
 }
