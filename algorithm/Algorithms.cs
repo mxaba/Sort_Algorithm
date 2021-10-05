@@ -24,14 +24,14 @@ namespace Sort_Algorithm.algorithm
         }
 
         // BubbleSort
-        public static int[] BubbleSort(int[] arrayPassed){
-            var len = arrayPassed.Length;
-            for(var i=1; i<len; i++){
-                for(var j=0; j<len-i; j++){
-                    if(arrayPassed[j] > arrayPassed[j + 1]){
+        public static int[] BubbleSort(int[] arrayPassed)
+        {
+            for(int i = 1, j = 0; i < arrayPassed.Length; i++, j++)
+            {
+                    if(arrayPassed[j] > arrayPassed[j + 1])
+                    {
                         SwapNumbers(ref arrayPassed[j], ref arrayPassed[j + 1]);
                     }
-                }
             }
             return arrayPassed;
         }
